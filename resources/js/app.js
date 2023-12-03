@@ -11,3 +11,5 @@ createIcons({
 		Laugh: icons.Laugh,
 	}
 })
+
+import './components/components.js'
