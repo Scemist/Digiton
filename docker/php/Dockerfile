@@ -19,7 +19,8 @@ RUN apk add \
 	php-openssl \
 	php-mbstring \
 	php-gd \
-	php-fileinfo
+	php-fileinfo \
+	php-exif
 
 # PHP Postgres PDO
 RUN docker-php-ext-install pdo_pgsql
