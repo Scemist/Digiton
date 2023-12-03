@@ -57,6 +57,7 @@ return [
      */
     'before' => [
         // 'assets' => '/usr/local/bin/yarn production',
+        'assets' => 'npm run build',
     ],
 
     /*
@@ -67,6 +68,7 @@ return [
      */
     'after' => [
         // 'deploy' => '/usr/local/bin/netlify deploy --prod',
+        'permissions' => 'chmod -R 777 /app/dist',
     ],
 
 ];

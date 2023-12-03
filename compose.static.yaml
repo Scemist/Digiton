@@ -1,0 +1,25 @@
+name: digiton-static
+
+networks:
+  internal:
+
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: ./docker/nginx/Dockerfile.Static
+    restart: unless-stopped
+    ports:
+      - "9998:80"
+    networks:
+      - internal
+    volumes:
+      - ./dist:/app
+
+  # php:
+  #   image: alpine
+  #   restart: unless-stopped
+  #   networks:
+  #     - internal
+  #   volumes:
+  #     - ./dist:/app

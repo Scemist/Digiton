@@ -17,4 +17,5 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+/dist/*
 resources/css/tailwind-built.css
