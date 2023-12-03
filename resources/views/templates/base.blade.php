@@ -7,10 +7,17 @@
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
 	<link href="favicon.svg" rel="icon">
 
-	<title>Digiton Tecnologia</title>
+	<meta content="index, follow" name="robots">
 
-	<meta name="description" content="Desenvolvimento de Sites, Sistemas e APPs">
-	<meta name="robots" content="index, follow">
+	<title>Digiton Tecnologia</title>
+	<meta content="Desenvolvimento de Sites, Sistemas e APPs" name="description">
+	<meta content="http://digiton.tech/images/full-logo.svg" name="image">
+
+	<meta content="Digiton Tecnologia" property="og:title">
+	<meta content="Desenvolvimento de Sites, Sistemas e APPs" property="og:description">
+	<meta content="https://digiton.tech" property="og:url">
+	<meta content="http://digiton.tech/images/full-logo.svg" property="og:image">
+	<meta content="website" property="og:type">
 
 	@vite('resources/css/app.css')
 </head>
@@ -23,10 +30,6 @@
 		<div class="mb-64 mx-auto my-16 px-5 flex flex-wrap" style="max-width: 1200px">
 			@yield('main')
 		</div>
-
-		{{-- <div class="hidden bg-red-800 bg-blue-800"></div>
-			<div class="absolute bottom-12 right-8 py-4 px-8 shadow rounded {{ category | category_color }}">
-			</div> --}}
 
 		@include('components.footer')
 	</main>
