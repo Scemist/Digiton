@@ -7,7 +7,10 @@
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
 	<link href="favicon.svg" rel="icon">
 
-	<title>Digiton Tenologia</title>
+	<title>Digiton Tecnologia</title>
+
+	<meta name="description" content="Desenvolvimento de Sites, Sistemas e APPs">
+	<meta name="robots" content="index, follow">
 
 	@vite('resources/css/app.css')
 </head>
