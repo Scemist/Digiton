@@ -1,8 +1,8 @@
 @extends('templates.base')
 
 @section('main')
-	<section class="flex justify-center w-6/12">
-		<h1 class="font-bold text-5xl leading-normal">
+	<section class="flex justify-center w-full lg:w-6/12">
+		<h1 class="font-bold text-3xl md:text-5xl leading-normal md:leading-normal">
 			<span class="opacity-60">O que </span>
 			<span class="bg-primary-400 px-3 py-1 rounded-xl">VOCÊ </span>
 			<span class="opacity-60 whitespace-nowrap">precisa construir no</span>
@@ -10,7 +10,7 @@
 		</h1>
 	</section>
 
-	<div class="py-7 px-7 overflow-hidden w-6/12">
+	<div class="py-9 md:py-7 px-7 overflow-hidden w-full lg:w-6/12">
 		<div class="flex flex-nowrap animate-paginate" style="width: 200%">
 			<section class="flex justify-center w-full px-10">
 				<div class="text-primary-800 bg-primary-50 rounded-t-xl w-full pb-3 shadow-lg shadow-primary-900">
@@ -50,11 +50,11 @@
 		</div>
 	</div>
 
-	<section class="flex gap-6 mt-16 bg-primary-400 opacity-80 rounded-2xl py-8 px-12">
-		<div class="w-4/12">
+	<section class="flex gap-6 mt-0 lg:mt-16 bg-primary-400 opacity-80 rounded-2xl py-8 px-4 md:px-12">
+		<div class="hidden md:w-4/12">
 			<img alt="" class="w-full h-full object-cover rounded-2xl shadow shadow-primary-600" src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=1200">
 		</div>
-		<div class="w-8/12 py-4 px-4 leading-loose text-primary-800">
+		<div class="w-full md:w-8/12 py-4 px-4 leading-loose text-primary-800">
 			<h2 class="font-semibold text-3xl mb-8">Como ter o seu próprio WebSite?</h2>
 			<ul class="">
 				<li class="mb-6 border-l-2 border-primary-700 pl-4">
