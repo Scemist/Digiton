@@ -10,14 +10,9 @@
 	<meta content="index, follow" name="robots">
 
 	<title>Digiton Tecnologia</title>
-	<meta content="Desenvolvimento de Sites, Sistemas e APPs" name="description">
-	<meta content="http://digiton.tech/images/full-logo.svg" name="image">
+	<meta content="Desenvolvimento de Sites, Sistemas e APPs." name="description">
 
-	<meta content="Digiton Tecnologia" property="og:title">
-	<meta content="Desenvolvimento de Sites, Sistemas e APPs" property="og:description">
-	<meta content="https://digiton.tech" property="og:url">
-	<meta content="http://digiton.tech/images/full-logo.svg" property="og:image">
-	<meta content="website" property="og:type">
+	@include('components.metatags')
 
 	@vite('resources/css/app.css')
 </head>
