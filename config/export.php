@@ -47,7 +47,7 @@ return [
      *
      * If empty, your site will be exported to a `dist` folder.
      */
-    'disk' => null,
+    'disk' => 'static',
 
     /*
      * Shell commands that should be run before the export starts when running
@@ -68,7 +68,7 @@ return [
      */
     'after' => [
         // 'deploy' => '/usr/local/bin/netlify deploy --prod',
-        'permissions' => 'chmod -R 777 /app/dist',
+        'permissions' => 'chmod -R 777 ' . base_path() . '/docs',
     ],
 
 ];
