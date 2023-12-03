@@ -50,68 +50,93 @@
 		</div>
 	</div>
 
-	<section class="flex gap-6 mt-0 lg:mt-16 bg-primary-400 opacity-80 rounded-2xl py-8 px-4 md:px-12">
-		<div class="hidden md:w-4/12">
+	<section class="flex gap-6 mt-0 lg:mt-16 bg-primary-600 opacity-80 rounded-2xl py-8 px-4 md:px-12">
+		<div class="hidden md:flex md:w-4/12">
 			<img alt="" class="w-full h-full object-cover rounded-2xl shadow shadow-primary-600" src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=1200">
 		</div>
-		<div class="w-full md:w-8/12 py-4 px-4 leading-loose text-primary-800">
+		<div class="w-full md:w-8/12 py-4 px-4 leading-loose text-primary-50">
 			<h2 class="font-semibold text-3xl mb-8">Como ter o seu próprio WebSite?</h2>
 			<ul class="">
-				<li class="mb-6 border-l-2 border-primary-700 pl-4">
+				<li class="mb-6 border-l-2 border-primary-200 pl-4">
 					<h3 class="font-semibold flex gap-2 items-center">
 						<i data-lucide="messages-square"></i>ENTRE EM CONTATO
 					</h3>
-					<p class="text-primary-700">
+					<p class="text-primary-200">
 						Entrando em contato, podemos tirar suas dúvidas e entender o que você deseja.
 					</p>
 				</li>
-				<li class="mb-6 border-l-2 border-primary-700 pl-4">
+				<li class="mb-6 border-l-2 border-primary-200 pl-4">
 					<h3 class="font-semibold flex gap-2 items-center">
 						<i data-lucide="shield-question"></i>ORÇAMENTO
 					</h3>
-					<p class="text-primary-700">
+					<p class="text-primary-200">
 						Te daremos um valor do quanto isto levará para nós.
 					</p>
 				</li>
-				<li class="mb-6 border-l-2 border-primary-700 pl-4">
+				<li class="mb-6 border-l-2 border-primary-200 pl-4">
 					<h3 class="font-semibold flex gap-2 items-center">
 						<i data-lucide="blocks"></i>DESENVOLVIMENTO
 					</h3>
-					<p class="text-primary-700">
+					<p class="text-primary-200">
 						Se você estiver de acordo, te daremos um prazo de até 2 semanas para mostrar como andam as coisas.
 					</p>
 				</li>
-				<li class="mb-6 border-l-2 border-primary-700 pl-4">
+				<li class="mb-6 border-l-2 border-primary-200 pl-4">
 					<h3 class="font-semibold flex gap-2 items-center">
 						<i data-lucide="laugh"></i>PAGAMENTO
 					</h3>
-					<p class="text-primary-700">
+					<p class="text-primary-200">
 						Somente após ver a primeira fase do desenvolvimento é que você decide se quer continuar, e só agora realizar parte do pagamento.
 					</p>
 				</li>
-				<li class="mb-6 border-l-2 border-primary-700 pl-4">
+				<li class="mb-6 border-l-2 border-primary-200 pl-4">
 					<h3 class="font-semibold flex gap-2 items-center">
 						<i data-lucide="monitor-check"></i>ENTREGA
 					</h3>
-					<p class="text-primary-700">
+					<p class="text-primary-200">
 						Somente quando o processo de desenvolvimento terminar, e o website já estiver disponível, é que o restante é cobrado.
 					</p>
 				</li>
-
-				{{-- <li class="border-l-2 border-primary-700 pl-4">Orçamento</li>
-				<li class="border-l-2 border-primary-700 pl-4">Desenvolvemos</li>
-				<li class="border-l-2 border-primary-700 pl-4">Entrega</li> --}}
 			</ul>
-			{{-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt laudantium consectetur, quos odit, magnam delectus sint quisquam quis corrupti, dolorem et dolor eos? Dolor cumque quod ab, aspernatur tempora atque quibusdam, facilis quo ut praesentium assumenda iste exercitationem beatae veniam nisi aliquam! Exercitationem omnis impedit expedita libero totam eos quasi. Quasi soluta tempore odit dicta pariatur? Debitis quasi ipsum dolorum, dignissimos explicabo sequi totam provident, cum placeat deserunt magni. Ipsam velit fugit explicabo, doloremque magnam provident quo eveniet. --}}
 		</div>
-		{{-- <img class="w-1/4 h-56 object-cover rounded-2xl shadow-lg shadow-primary-900" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=700" alt="">
-		<img class="w-1/4 h-56 object-cover rounded-2xl shadow-lg shadow-primary-900" src="https://images.unsplash.com/photo-1487014679447-9f8336841d58?w=700" alt="">
-		<img class="w-1/4 h-56 object-cover rounded-2xl shadow-lg shadow-primary-900" src="https://images.unsplash.com/photo-1481487196290-c152efe083f5?w=700" alt="">
-		<img class="w-1/4 h-56 object-cover rounded-2xl shadow-lg shadow-primary-900" src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=700" alt=""> --}}
+		{{-- <img class="w-1/4 h-56 object-cover rounded-2xl shadow-lg shadow-primary-900" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=700" alt=""> --}}
 	</section>
 
-	<section class="mt-16 md:mt-28">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt laudantium consectetur, quos odit, magnam delectus sint quisquam quis corrupti, dolorem et dolor eos? Dolor cumque quod ab, aspernatur tempora atque quibusdam, facilis quo ut praesentium assumenda iste exercitationem beatae veniam nisi aliquam! Exercitationem omnis impedit expedita libero totam eos quasi. Quasi soluta tempore odit dicta pariatur? Debitis quasi ipsum dolorum, dignissimos explicabo sequi totam provident, cum placeat deserunt magni. Ipsam velit fugit explicabo, doloremque magnam provident quo eveniet. Sit neque sunt pariatur officia odio aut, deleniti assumenda, nulla reprehenderit ab facere, at explicabo tempore repellendus dolorum! Voluptatibus illum officiis nobis quibusdam, itaque cupiditate omnis eligendi id magnam atque eveniet blanditiis porro impedit delectus non illo! Quo dignissimos non laboriosam nemo nam, tenetur molestiae laudantium temporibus numquam totam odio et voluptatem ipsum aliquid libero soluta ad quas, reprehenderit perspiciatis velit veniam? A accusamus fugit debitis ea ab odit perferendis velit, deleniti dolores, porro distinctio praesentium error quisquam consequuntur odio dolor quos laudantium, illo assumenda tenetur magnam quasi libero voluptates atque! Incidunt sit molestias hic, facere repellendus, dolorum consequuntur sapiente omnis tenetur sed accusantium blanditiis illum perferendis repudiandae ex. Laudantium animi, exercitationem sint distinctio ex veniam
-		accusamus. Amet neque reprehenderit enim eveniet.
-	</section>
-@endsection
+	<section class="mt-16 md:mt-28 w-full">
+		<h2 class="font-semibold text-3xl mb-8">Como falar a gente?</h2>
+
+		<div class="flex flex-wrap gap-4 justify-evenly">
+			<div class="flex flex-col justify-center items-center gap-y-4 mt-2 bg-gradient-to-br from-primary-50 to-primary-100 text-primary-800 opacity-80 rounded-3xl py-8 px-12">
+				<img alt="" class="h-36 w-36 object-cover rounded-full shadow-sm" src="https://i.pravatar.cc/300">
+
+				<div class="flex flex-col items-center">
+					<h3 class="text-2xl font-semibold">Augusto Magalhães</h3>
+					<h4>Gerente de Contas</h4>
+
+					<p class="mt-6">(17) 98816-0142</p>
+					<p>contato@digiton.tech</p>
+				</div>
+
+				<button class="bg-primary-800 text-primary-50 font-semibold mt-4 px-10 py-3 rounded-full">
+					Whatsapp
+				</button>
+			</div>
+
+			<div class="flex flex-col justify-center items-center gap-y-4 mt-2 bg-gradient-to-br from-primary-50 to-primary-100 text-primary-800 opacity-80 rounded-3xl py-8 px-12">
+				<img alt="" class="h-36 w-36 object-cover rounded-full shadow-sm" src="https://i.pravatar.cc/300">
+
+				<div class="flex flex-col items-center">
+					<h3 class="text-2xl font-semibold">Augusto Magalhães</h3>
+					<h4>Gerente de Contas</h4>
+
+					<p class="mt-6">(17) 98816-0142</p>
+					<p>contato@digiton.tech</p>
+				</div>
+
+				<button class="bg-primary-800 text-primary-50 font-semibold mt-4 px-10 py-3 rounded-full">
+					Whatsapp
+				</button>
+			</div>
+		</div>
+		</div>
+	@endsection
