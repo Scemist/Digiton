@@ -5,7 +5,9 @@
 		</span>
 		<div>
 			<h1 class="font-semibold text-3xl mb-5">Menu </h1>
-			<p>Some text in the Modal..</p>
+			<ul>
+				<li>Cat</li>
+			</ul>
 		</div>
 	</div>
 </div>
@@ -25,5 +27,5 @@
 		}
 	}
 
-	modal()
+	// modal()
 </script>
