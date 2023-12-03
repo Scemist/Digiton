@@ -27,7 +27,7 @@
 	<main class="flex-1 relative min-h-screen text-primary-100  bg-repeat" style="background-image: url(/images/texture.svg)">
 		@include('layout.nav')
 
-		<div class="mb-80 md:mb-64 mx-auto my-4 lg:my-16 px-5 flex flex-wrap" style="max-width: 1200px">
+		<div class="mx-auto my-4 lg:my-16 px-5 flex flex-wrap" style="max-width: 1200px">
 			@yield('main')
 		</div>
 
