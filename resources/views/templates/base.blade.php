@@ -17,7 +17,7 @@
 	@vite('resources/css/app.css')
 </head>
 
-<body class=" text-secondary-700 flex justify-center flex-col bg-gradient-to-tl from-primary-900 to-primary-800">
+<body class=" text-secondary-700 flex justify-center flex-col bg-gradient-to-tl from-secondary-900 to-primary-900">
 
 	<main class="flex-1 relative min-h-screen text-primary-100  bg-repeat" style="background-image: url(/images/texture.svg)">
 		@include('layout.nav')
