@@ -10,6 +10,10 @@ createIcons({
 		Blocks: icons.Blocks,
 		Laugh: icons.Laugh,
 		Mail: icons.Mail,
+		Linkedin: icons.Linkedin,
+		Instagram: icons.Instagram,
+		Github: icons.Github,
+		Facebook: icons.Facebook,
 	}
 })
 

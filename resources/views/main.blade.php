@@ -109,22 +109,26 @@
 	<section class="mt-16 md:mt-28 w-full">
 		<h2 class="font text-5xl mb-8" id="como-falar-com-a-gente">Como Falar com a Gente?</h2>
 
-		<div class="flex flex-wrap gap-4 justify-evenly">
-			<div class="flex flex-col justify-center items-center gap-y-4 mt-2 bg-gradient-to-br from-primary-50 to-primary-100 text-primary-800 opacity-80 rounded-3xl py-6 px-12">
-				<h4 class="font-semibold opacity-70 text-xs flex gap-2 items-center">
-					<svg class="bi bi-whatsapp w-6 h-6" fill="currentColor" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
-						<path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-					</svg>
-					Whatsapp
-				</h4>
-				<a class="mt-2 text-lg" href="tel:(17) 98816-0142">(17) 98816-0142</a>
-			</div>
+		<div class="flex flex-col gap-10 items-center">
+			<div class="flex flex-col justify-center items-center gap-y-9 mt-2 bg-gradient-to-br from-primary-50 to-primary-100 text-primary-800 opacity-80 rounded-3xl py-8 px-10">
+				<div class="flex flex-col items-center p-1">
+					<h4>WhatsApp</h4>
+					
+					<a class="flex gap-2 p-1 items-center mt-2 text-xl text-primary-500 hover:text-secondary-700 transition font-semibold" href="tel:(17) 98816-0142">
+						<svg class="bi bi-whatsapp w-6 h-7" fill="currentColor" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+							<path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+						</svg>
+						(17) 98816-0142
+					</a>
+				</div>
 
-			<div class="flex flex-col justify-center items-center gap-y-4 mt-2 bg-gradient-to-br from-primary-50 to-primary-100 text-primary-800 opacity-80 rounded-3xl py-6 px-12">
-				<h4 class="font-semibold opacity-70 text-xs flex gap-2 items-center">
-					<i class="text-xs" data-lucide="mail"></i>E-mail
-				</h4>
-				<a class="mt-2 text-lg" href="mailto:contato.digiton.tech@gmail.com">contato.digiton.tech@gmail.com</a>
+				<div class="flex flex-col items-center p-1">
+					<h4>E-mail</h4>
+					<a class="flex gap-2 p-1 items-center mt-2 text-xl text-primary-500 hover:text-secondary-700 transition font-semibold" href="mailto:contato.digiton.tech@gmail.com">
+						<i class="text-xs" data-lucide="mail"></i>
+						contato.digiton.tech@gmail.com
+					</a>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -139,6 +143,10 @@
 				<div class="flex flex-col pt-8 items-center py-2 px-5">
 					<h3 class="text-2xl font-semibold text-center mb-2">Augusto Magalhães</h3>
 					<h4>Product Specialist</h4>
+					<div class="flex mt-2">
+						<a class="hover:bg-primary-500 hover:text-primary-50 transition rounded p-2" href=""><i class="text-xs" data-lucide="instagram"></i></a>
+						<a class="hover:bg-primary-500 hover:text-primary-50 transition rounded p-2" href=""><i class="text-xs" data-lucide="facebook"></i></a>
+					</div>
 				</div>
 
 				<p class="px-7 py-7 mt-3 leading-6 text-sm bg-primary-800 text-primary-50 rounded-b-2xl">
@@ -152,6 +160,10 @@
 				<div class="flex flex-col items-center py-2 px-5">
 					<h3 class="text-2xl font-semibold text-center mb-2">Lucas Scemist</h3>
 					<h4>Software Architect</h4>
+					<div class="flex mt-2">
+						<a class="hover:bg-primary-500 hover:text-primary-50 transition rounded p-2" href="https://linkedin.com/in/Scemist"><i class="text-xs" data-lucide="linkedin"></i></a>
+						<a class="hover:bg-primary-500 hover:text-primary-50 transition rounded p-2" href="https://github.com/Scemist" target="_blank"><i class="text-xs" data-lucide="github"></i></a>
+					</div>
 				</div>
 
 				<p class="px-7 py-7 mt-3 leading-6 text-sm bg-primary-800 text-primary-50 rounded-b-2xl">
