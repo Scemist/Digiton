@@ -14,7 +14,7 @@ services:
     networks:
       - internal
     volumes:
-      - ./dist:/app
+      - ./docs:/app
 
   # php:
   #   image: alpine

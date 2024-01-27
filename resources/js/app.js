@@ -9,6 +9,7 @@ createIcons({
 		MonitorCheck: icons.MonitorCheck,
 		Blocks: icons.Blocks,
 		Laugh: icons.Laugh,
+		Mail: icons.Mail,
 	}
 })
 

@@ -11,9 +11,9 @@
 		</ul>
 
 		<div class="flex justify-center items-center">
-			<button class="hidden md:flex rounded-full text-primary-700 mr-5 bg-primary-100 py-5 h-8 px-6 items-center font-semibold hover:bg-primary-400 hover:text-primary-950 transition" href="{#">
+			<a class="hidden md:flex rounded-full text-primary-700 mr-5 bg-primary-100 py-5 h-8 px-6 items-center font-semibold hover:bg-primary-400 hover:text-primary-950 transition" href="#como-falar-com-a-gente">
 				Contato
-			</button>
+			</a>
 
 			<button class="flex lg:hidden rounded-lg text-primary-700 bg-primary-100 bg-opacity-80 py-1 h-9 px-2 mx-4 items-center font-semibold hover:bg-primary-400 hover:text-primary-950 transition" href="#" id="navBarButton">
 				<i class="h-5" data-lucide="Menu"></i>
@@ -33,7 +33,7 @@
 				<li class="py-2 w-full"><a class="inline-block w-full py-2 px-6 bg-gradient-to-r from-primary-700 to-primary-800 rounded-3xl" href="#">Produtos e Serviços</a></li>
 				<li class="py-2 w-full"><a class="inline-block w-full py-2 px-6 bg-gradient-to-r from-primary-700 to-primary-800 rounded-3xl" href="#">Como Trabalhamos</a></li>
 				<li class="py-2 w-full"><a class="inline-block w-full py-2 px-6 bg-gradient-to-r from-primary-700 to-primary-800 rounded-3xl" href="#">Quem Somos</a></li>
-				<li class="py-2 w-full"><a class="inline-block w-full py-2 px-6 bg-gradient-to-r from-primary-700 to-primary-800 rounded-3xl" href="#">Contato</a></li>
+				<li class="py-2 w-full"><a class="inline-block w-full py-2 px-6 bg-gradient-to-r from-primary-700 to-primary-800 rounded-3xl" href="#como-falar-com-a-gente">Contato</a></li>
 			</ul>
 		</div>
 	</div>
