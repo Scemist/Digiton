@@ -9,7 +9,7 @@ docker compose up -d --build
 ### First Commands to Run
 
 ```sh
-sudo docker exec -it thunplate-php-1 sh
+docker exec -it digiton-dev-php-1 sh
 
 cp .env.example .env
 
@@ -24,8 +24,8 @@ chmod -R 755 /app && \
 php artisan key:generate
 ```
 
-## Production
+## Production - Generate Static Site in /docs
 
 ```sh
-docker compose -f docker-compose.prod.yml up --detach --build --renew-anon-volumes
+docker exec bash export.sh
 ```

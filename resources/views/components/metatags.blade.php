@@ -6,10 +6,10 @@
 <meta content="Desenvolvimento de Sites, Sistemas e APPs." name="twitter:description">
 <meta content="http://digiton.tech/images/full-logo.svg" name="twitter:image:src">
 
-<meta content="http://digiton.tech/images/full-logo.svg" property="og:image">
+<meta content="http://digiton.tech/images/preview.png" property="og:image">
 <meta content="Desenvolvimento de Sites, Sistemas e APPs." property="og:image:alt">
-<meta content="1200" property="og:image:width">
-<meta content="600" property="og:image:height">
+<meta content="300" property="og:image:width">
+<meta content="300" property="og:image:height">
 <meta content="Digiton" property="og:site_name">
 <meta content="object" property="og:type">
 <meta content="Digiton Tecnologia" property="og:title">
