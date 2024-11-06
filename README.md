@@ -24,6 +24,8 @@ chmod -R 755 /app && \
 php artisan key:generate
 ```
 
+> Available on localhost:9999
+
 ## Production - Generate Static Site in /docs
 
 ```sh

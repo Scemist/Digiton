@@ -22,6 +22,7 @@
 	</div>
 
 	<div class="border-t  border-t-primary-800 pt-5 text-center">
-		Copyright © 2023 Digiton Tecnologia LTDA {{--  - 00.623.904/0001-73 --}}
+		Copyright © 2024 Digiton Tecnologia Consultoria em TI LTDA
+		<br> CNPJ (57.784.466/0001-42)
 	</div>
 </footer>
