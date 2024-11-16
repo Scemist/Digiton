@@ -37,6 +37,7 @@
 	@vite('resources/js/app.js')
 
 	@include('components.modal')
+	@include('components.analytics')
 	</div>
 </body>
 
