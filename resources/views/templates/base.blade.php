@@ -2,6 +2,8 @@
 <html lang="pt-BR">
 
 <head>
+	@include('components.analytics')
+
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
@@ -37,8 +39,6 @@
 	@vite('resources/js/app.js')
 
 	@include('components.modal')
-	@include('components.analytics')
-	</div>
 </body>
 
 </html>
