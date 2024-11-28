@@ -14,6 +14,11 @@ createIcons({
 		Instagram: icons.Instagram,
 		Github: icons.Github,
 		Facebook: icons.Facebook,
+		Fingerprint: icons.Fingerprint,
+		MessageCircle: icons.MessageCircle,
+		BookMarked: icons.BookMarked,
+		LockKeyhole: icons.LockKeyhole,
+		Newspaper: icons.Newspaper,
 	}
 })
 

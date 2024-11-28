@@ -5,6 +5,7 @@
 		</a>
 
 		<ul class="hidden lg:flex items-center text-primary-200 gap-x-2">
+			<li><a class="py-4 px-5 hover:text-primary-50" href="https://noticias.digiton.tech">Notícias</a></li>
 			<li><a class="py-4 px-5 hover:text-primary-50" href="#">Produtos e Serviços</a></li>
 			<li><a class="py-4 px-5 hover:text-primary-50" href="#">Como Trabalhamos</a></li>
 			<li><a class="py-4 px-5 hover:text-primary-50" href="#">Quem Somos</a></li>
@@ -30,6 +31,7 @@
 		<div>
 			<h1 class="font-semibold text-3xl mb-5">Menu </h1>
 			<ul class="flex flex-col items-center text-primary-100">
+				<li class="py-2 w-full"><a class="inline-block w-full py-2 px-6 bg-gradient-to-r from-primary-700 to-primary-800 rounded-3xl" href="https://noticias.digiton.tech">Notícias</a></li>
 				<li class="py-2 w-full"><a class="inline-block w-full py-2 px-6 bg-gradient-to-r from-primary-700 to-primary-800 rounded-3xl" href="#">Produtos e Serviços</a></li>
 				<li class="py-2 w-full"><a class="inline-block w-full py-2 px-6 bg-gradient-to-r from-primary-700 to-primary-800 rounded-3xl" href="#">Como Trabalhamos</a></li>
 				<li class="py-2 w-full"><a class="inline-block w-full py-2 px-6 bg-gradient-to-r from-primary-700 to-primary-800 rounded-3xl" href="#">Quem Somos</a></li>
@@ -38,7 +40,3 @@
 		</div>
 	</div>
 </div>
-
-<script>
-	
-</script>
